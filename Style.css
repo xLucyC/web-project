@@ -1,0 +1,517 @@
+* {
+	
+    cursor:url('cursor.cur'), auto;
+	
+	embed { display: none
+	; }
+	
+    button:active + embed { display: none; }
+	
+}
+
+.header img {
+	
+    float: left;
+	
+    width: 200px;
+	
+    height: 150px;
+	
+    background: #555;
+	
+}
+
+.playsound {
+
+    
+
+}
+
+.header h1 {
+	
+    color: #FBC6E8;
+	
+	float: center;
+	
+    position: relative;
+	
+    top: 18px;
+	
+    left: 10px;
+	
+}
+
+p {
+	
+	font-size: 16px;
+	
+	text-align: center;
+	
+	color: white;
+	
+}
+h3 {
+	
+	color: #FBC6FB;
+	
+	text-align: center;
+}
+
+button {
+	
+	background-color: #FBC6E8;
+	
+	color: white;
+	
+	border: none;
+    
+	border-radius: 10px;
+}
+
+.infobox {
+	
+	background-image: url('Images/black.jpg');
+	
+	background-repeat: none;
+	
+	background-size: cover;
+	
+	position: absolute;
+	
+	z-index: -1;
+	
+}
+
+.tab {
+	
+	background-image: url('Images/black.jpg');
+	
+	background-repeat: none;
+	
+	background-size: cover;
+	
+	position: float;
+	
+	z-index: -1;
+	
+}
+
+.header {
+	
+	background-image: url('Images/black.jpg');
+	
+	background-repeat: none;
+	
+	background-size: cover;
+	
+	position: float;
+	
+	z-index: -1;
+	
+}
+
+body { 
+
+    background-color: #010000;
+
+    width: 100%; 
+
+    height: 100%;
+	
+	background-image: url('Images/blossom.gif');
+	
+	background-repeat:repeat;
+	
+	background-size: cover;
+	
+	height: 100vh;
+    
+	padding:0;
+    
+	margin:0;
+	
+    min-height: 100vh;
+  
+    display: flex;
+  
+    flex-direction: column;
+
+}
+
+footer { 
+
+    position: fixed;
+
+    bottom: 0;
+	
+}	
+
+.footer img{ 
+
+    position: flex;
+	
+	justify-content: end;
+	
+    width: 30%;
+ 
+    height: 20%;  
+	 
+}
+
+.footernav {
+	
+	color: #AFFAFD;
+	
+	background-color:  #010000;
+	
+	font-size: 20px;
+    
+	padding:0;
+    	
+	margin:0;
+	
+	position: relative;
+	
+    display: inline-block;
+		
+}	
+
+.footernav:hover::after {
+
+    position: flex;
+
+	color: #AFFAFD;
+
+	padding: 5px;
+
+	border-radius: 4px;
+
+	font-size: 14px;
+
+	top: 100%;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	white-space: nowrap;
+		
+}
+
+/*Games Button*/
+.Games {
+
+position: relative;
+
+display: inline-block;
+
+}
+.Games:hover::after {
+
+content: ": A Page Containing all my Games projects.";
+ 
+justify-content: center;
+
+position: flex;
+
+color: #AFFAFD;
+
+padding: 5px;
+
+border-radius: 4px;
+
+font-size: 14px;
+
+top: 100%;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+white-space: nowrap;
+
+}
+
+.Games:hover::before {
+
+content: "";
+
+position: absolute;
+
+border-width: 6px;
+
+border-style: solid;
+
+border-color: black transparent transparent transparent;
+
+top: -12px;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+}
+
+/*Info Button*/
+.Info {
+
+position: relative;
+
+display: inline-block;
+
+}
+.Info:hover::after {
+
+content: ": A Page containing Info about Me and my Projects.";
+
+justify-content: center;
+
+position: flex;
+
+color: #AFFAFD;
+
+padding: 5px;
+
+border-radius: 4px;
+
+font-size: 14px;
+
+top: 100%;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+white-space: nowrap;
+
+}
+
+.Info:hover::before {
+
+content: "";
+
+position: absolute;
+
+border-width: 6px;
+
+border-style: solid;
+
+border-color: black transparent transparent transparent;
+
+top: -12px;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+}
+/*Other Button*/
+.Other {
+
+position: relative;
+
+display: inline-block;
+
+}
+.Other:hover::after {
+
+content: ": A Page containing Other projects and Random things.";
+
+justify-content: center;
+
+position: flex;
+
+color: #AFFAFD;;
+
+padding: 5px;
+
+border-radius: 4px;
+
+font-size: 14px;
+
+top: 100%;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+white-space: nowrap;
+
+}
+
+.Other:hover::before {
+
+content: "";
+
+position: absolute;
+
+border-width: 6px;
+
+border-style: solid;
+
+border-color: black transparent transparent transparent;
+
+top: -12px;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+}
+/*Home Button*/
+.Home {
+
+position: relative;
+
+display: inline-block;
+
+}
+.Home:hover::after {
+
+content: ": Return to the Homepage.";
+
+justify-content: center;
+
+position: flex;
+
+color: #AFFAFD;;
+
+padding: 5px;
+
+border-radius: 4px;
+
+font-size: 14px;
+
+top: 100%;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+white-space: nowrap;
+
+}
+
+.Home:hover::before {
+
+content: "";
+
+position: absolute;
+
+border-width: 6px;
+
+border-style: solid;
+
+border-color: black transparent transparent transparent;
+
+top: -12px;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+}
+
+.basicinfo {
+	
+	background-image: url('Images/black.jpg');
+	
+	text-align: center;
+	
+	background-repeat: none;
+	
+	background-size: cover;
+	
+	position: float;
+	
+	justify-content: top left;
+	
+}
+
+.favgames{
+	
+	background-image: url('Images/black.jpg');
+	
+	text-align: center;
+	
+	background-repeat: none;
+	
+	background-size: cover;
+	
+	position: float;
+	
+	justify-content: right;
+	
+}
+
+.favmusic {
+	
+	background-image: url('Images/black.jpg');
+	
+	background-repeat: none;
+	
+	background-size: cover;
+	
+	position: bottom;
+	
+	justify-content: left;
+	
+	text-align: center;
+	
+}
+
+.favtvandfilms {
+	
+	text-align: center;
+	
+	background-image: url('Images/black.jpg');
+	
+	background-repeat: none;
+	
+	background-size: cover;
+	
+	position: bottom;
+	
+	justify-content: right;
+	
+.uniqvids { 
+	
+	color: #AFFAFD;
+	
+	background-color:  #010000;
+	
+	font-size: 20px;
+    
+	padding:0;
+    	
+	margin:0;
+	
+	position: fixed;
+	
+    display: inline-block;
+	
+	justify-content: right;
+		
+}	
+
+.uniqvids:hover::after {
+
+    position: flex;
+
+	color: #AFFAFD;
+
+	padding: 5px;
+
+	border-radius: 4px;
+
+	font-size: 14px;
+
+	top: 100%;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	white-space: nowrap;
+	
+}
